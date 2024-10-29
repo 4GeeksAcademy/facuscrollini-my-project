@@ -1,0 +1,68 @@
+body {
+    background-color: lightgray;
+    margin:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.wrapper {
+    width: 650px;
+    text-align:center;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+width: 500px;
+margin: auto;
+}
+
+ .post {
+    background-color: white;
+    margin: 50px;
+ }
+
+ div .post-head {
+    display:flex;
+    padding: 5px;
+    height: 30px;
+    border-bottom: lightgray solid 1px;
+ }
+
+ .post-head h3 {
+    width:80%;
+    padding: 5px;
+    margin: auto 5px;
+    text-align:left;
+ }
+
+ .post-head p {
+    width:20%;
+    padding:5px;
+    margin: auto 5px;
+    text-align:right;
+    color:lightgray;
+ }
+
+ .post .post-content {
+    justify-content: center;
+    border-top: lightgray solid 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom:1px;
+ }
+
+ .post .post-content p {
+    text-align: left;
+ }
+
+ header .pageTitle {
+    padding-bottom: 15px;
+    padding-top: 15px;
+ }
